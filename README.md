@@ -1,61 +1,22 @@
-cat <<EOT > README.md
-# News Feed App
+News App
 
-A React-based news application that fetches and displays top headlines using the NewsAPI.
+News App is a React-based application that fetches and displays the latest news headlines from the News API. Users can browse top headlines, navigate through pages, and read articles from different sources.
 
-## Features
+Features
 
-- Fetches latest news from NewsAPI.
-- Displays news articles with title, description, and images.
-- Pagination to navigate through articles.
-- Responsive design.
+Fetches real-time news using the News API
 
-## Installation
+Displays headlines, descriptions, and images
 
-1. Clone the repository:
-   \`\`\`sh
-   git clone https://github.com/web3saad/News-Feed-using-React.git
-   \`\`\`
+Pagination for browsing multiple pages
 
-2. Navigate to the project directory:
-   \`\`\`sh
-   cd News-Feed-using-React
-   \`\`\`
+Responsive design
 
-3. Install dependencies:
-   \`\`\`sh
-   npm install
-   \`\`\`
+Technologies Used
 
-## Usage
+React.js
 
-1. Start the development server:
-   \`\`\`sh
-   npm start
-   \`\`\`
+Bootstrap (for styling)
 
-2. Open your browser and visit `http://localhost:3000`.
+News API (for fetching news articles)
 
-## API Configuration
-
-This project uses NewsAPI. Get your API key from [NewsAPI](https://newsapi.org/) and replace it in `News.js`:
-
-\`\`\`js
-const url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=YOUR_API_KEY&page=1&pageSize=20";
-\`\`\`
-
-## Project Structure
-
-- \`src/\` - Contains React components and main logic.
-- \`public/\` - Static assets.
-- \`node_modules/\` - Dependencies.
-- \`package.json\` - Project dependencies and scripts.
-
-## Contributing
-
-Feel free to fork and contribute to this project!
-
-## License
-
-This project is licensed under the MIT License.
-EOT
