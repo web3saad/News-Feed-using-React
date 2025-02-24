@@ -1,4 +1,4 @@
-# News Feed App
+# News Feed Web App
 
 ## Description
 A React-based news feed application that fetches and displays news articles using the NewsAPI.
