@@ -26,7 +26,7 @@ A React-based news feed application that fetches and displays news articles usin
    npm start
    ```
 
-## Usage
+## Usage Method
 1. Open the application in your browser at `http://localhost:3000`.
 2. Browse through the latest news articles.
 
